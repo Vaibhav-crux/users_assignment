@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from flask import Flask
 from app.config.database import init_db
 from app.routes.user_routes import user_bp
-from app.routes.root_routes import root_bp  # Import root route blueprint
+from app.routes.root_routes import root_bp
 from app.middleware.cors_middleware import enable_cors
 from app.middleware.error_handling_middleware import init_error_handling
 from app.config.logging_config import setup_logging
