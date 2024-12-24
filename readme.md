@@ -33,7 +33,7 @@ This project is a Flask-based web application for managing users and other resou
 
 ```bash
 git clone https://github.com/Vaibhav-crux/users_assignment.git
-cd yourproject
+cd users_assignment
 ```
 
 ### 2. Create a `.env` file:
